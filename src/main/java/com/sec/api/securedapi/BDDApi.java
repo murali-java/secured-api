@@ -10,7 +10,7 @@ public class BDDApi {
     @GetMapping("/hitApi")
     public String testGetAPI(@RequestParam boolean success) throws Exception{
         if(success){
-            return "successful";
+            return "successfully";
         }
         return "failed";
     }
